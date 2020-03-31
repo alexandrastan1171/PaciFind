@@ -1,0 +1,8 @@
+Aplicatia PaciFind este o aplicatie destinata personalului medical al unui spital. 
+PaciFind este gandita pentru 2 tipuri de utilizatori: medici si admini.
+Un medic va avea acces la o lista cu pacientii sai, iar pentru fiecare dintre acestia o lista atat cu retetele prescrise fiecaruia dintre ei dar si cu
+bolile cronice ale fiecaruia si cu alergiile lor. Aplicatia este gandita pentru a ajuta medicii sa isi organizeze pacientii, sa monitorizeze retetele
+date si medicamentele la care raspunde cel mai bine un anumit pacient dar si ce medicamente contin alergeni care ar putea pune in pericol pacientii
+alergici.
+adminul poate vedea toti pacientii si doctorii spitalului si pot muta pacienti de la un doctor la altul si pot vedea o lista cu toate retetele oricarui 
+pacient. daca un doctor are nevoie de fisa medicala a unui pacient nou doar adminul i-o poate da din motive de confidentialitate.
