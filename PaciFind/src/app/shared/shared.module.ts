@@ -6,6 +6,7 @@ import { DoctorProfileContainerComponent } from './doctor-profile-container/doct
 import { DoctorDescriptionComponent } from './doctor-description/doctor-description.component';
 import { LogInComponent } from './log-in/log-in.component';
 import { MainContainerComponent } from './main-container/main-container.component';
+import { ContactContainerComponent } from './contact-container/contact-container.component';
 
 
 
@@ -13,14 +14,15 @@ import { MainContainerComponent } from './main-container/main-container.componen
   declarations: [MenuComponent, 
     SidebarComponent, 
     DoctorProfileContainerComponent, 
-    DoctorDescriptionComponent, LogInComponent, MainContainerComponent
+    DoctorDescriptionComponent, LogInComponent, MainContainerComponent, ContactContainerComponent
   ],
   imports: [
     CommonModule
   ],
   exports: [
     DoctorProfileContainerComponent,
-    MainContainerComponent
+    MainContainerComponent,
+    ContactContainerComponent
     
   ]
 })

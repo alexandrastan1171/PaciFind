@@ -11,6 +11,10 @@ const routes: Routes = [
     path:'main-page',
     loadChildren:() => import ('./main-page/main-page.module').then(module => module.MainPageModule)
   },
+  {
+    path:'contact-page',
+    loadChildren:() => import ('./contact-page/contact-page.module').then(module => module.ContactPageModule)
+  },
   
 ];
 
