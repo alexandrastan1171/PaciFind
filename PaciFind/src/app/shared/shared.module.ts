@@ -4,6 +4,8 @@ import { MenuComponent } from './menu/menu.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { DoctorProfileContainerComponent } from './doctor-profile-container/doctor-profile-container.component';
 import { DoctorDescriptionComponent } from './doctor-description/doctor-description.component';
+import { LogInComponent } from './log-in/log-in.component';
+import { MainContainerComponent } from './main-container/main-container.component';
 
 
 
@@ -11,13 +13,14 @@ import { DoctorDescriptionComponent } from './doctor-description/doctor-descript
   declarations: [MenuComponent, 
     SidebarComponent, 
     DoctorProfileContainerComponent, 
-    DoctorDescriptionComponent
+    DoctorDescriptionComponent, LogInComponent, MainContainerComponent
   ],
   imports: [
     CommonModule
   ],
   exports: [
-    DoctorProfileContainerComponent
+    DoctorProfileContainerComponent,
+    MainContainerComponent
     
   ]
 })
