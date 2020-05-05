@@ -1,0 +1,58 @@
+{
+  "medic": [  {
+"id":1,
+"nume":"Popescu",
+"prenume": "Ion",
+"varsta":38,
+"specializare":"Neurochirurg",
+"pacient":"Vlad"
+  },
+  {
+      "id":2,
+"nume":"Ionescu",
+"prenume": "Adrian",
+"varsta":43,
+"specializare":"Cardiolog",
+"pacient":"Mihai"
+  }
+],
+"alergie": [ {
+"id":1,
+"alergen":"Polen"
+},
+{
+  "id":2,
+  "alergen":"Penicilina"
+}
+],
+"boli_cronice": [ {
+"id":1,
+"nume":"Diabet",
+"simptome":"Insuficienta in nivelele de insulina, sete excesiva, luare in greutate foarte rapida, stari de lesin"
+}
+],
+"pacient": [ {
+"CNP":"1990914059463",
+"nume":"Moromete",
+"prenume":"Ilie",
+"nr_telefon":"0734254738",
+"adresa":"Brasov, Bd. Calea Bucuresti nr. 12",
+"alergii":"Nu are",
+"boli_cronice":"Nu are",
+"id_doctori":"1,2"
+}
+],
+"medicament": [ {
+  "id":1,
+  "id_alergeni":0,
+  "nume_medicament":"Paracetamol" 
+}
+],
+"reteta": [ {
+  "id":1,
+  "pacient_id":1,
+  "medicament_id":1,
+  "procent_compensatie":20
+}
+]
+}
