@@ -8,14 +8,18 @@ const routes: Routes = [
     loadChildren:() => import ('./doctor-page/doctor-page.module').then(module => module.DoctorPageModule)
   },
   {
-    path:'main-page',
-    loadChildren:() => import ('./main-page/main-page.module').then(module => module.MainPageModule)
+    path:'login-page',
+    loadChildren:() => import ('./login-page/login-page.module').then(module => module.MainPageModule)
   },
   {
     path:'contact-page',
     loadChildren:() => import ('./contact-page/contact-page.module').then(module => module.ContactPageModule)
   },
   
+  {
+    path:'',
+    loadChildren:() => import ('./main-page/main-page.module').then(module => module.MainPageModule)
+  },
 ];
 
 @NgModule({

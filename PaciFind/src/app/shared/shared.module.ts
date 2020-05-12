@@ -5,8 +5,9 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { DoctorProfileContainerComponent } from './doctor-profile-container/doctor-profile-container.component';
 import { DoctorDescriptionComponent } from './doctor-description/doctor-description.component';
 import { LogInComponent } from './log-in/log-in.component';
-import { MainContainerComponent } from './main-container/main-container.component';
+import { LoginContainerComponent } from './login-container/login-container.component';
 import { ContactContainerComponent } from './contact-container/contact-container.component';
+import { MainPageContainerComponent } from './main-page-container/main-page-container.component';
 
 
 
@@ -14,15 +15,20 @@ import { ContactContainerComponent } from './contact-container/contact-container
   declarations: [MenuComponent, 
     SidebarComponent, 
     DoctorProfileContainerComponent, 
-    DoctorDescriptionComponent, LogInComponent, MainContainerComponent, ContactContainerComponent
+    DoctorDescriptionComponent, 
+    LogInComponent, 
+    LoginContainerComponent, 
+    ContactContainerComponent, 
+    MainPageContainerComponent
   ],
   imports: [
     CommonModule
   ],
   exports: [
     DoctorProfileContainerComponent,
-    MainContainerComponent,
-    ContactContainerComponent
+    LoginContainerComponent,
+    ContactContainerComponent,
+    MainPageContainerComponent
     
   ]
 })
