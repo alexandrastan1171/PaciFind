@@ -15,7 +15,10 @@ const routes: Routes = [
     path:'contact-page',
     loadChildren:() => import ('./contact-page/contact-page.module').then(module => module.ContactPageModule)
   },
-  
+  {
+    path:'pacients-page',
+    loadChildren:() => import ('./all-pacients-page/all-pacients-page.module').then(module => module.AllPacientsPageModule)
+  },
   {
     path:'',
     loadChildren:() => import ('./main-page/main-page.module').then(module => module.MainPageModule)

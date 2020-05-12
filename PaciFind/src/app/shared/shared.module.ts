@@ -8,6 +8,8 @@ import { LogInComponent } from './log-in/log-in.component';
 import { LoginContainerComponent } from './login-container/login-container.component';
 import { ContactContainerComponent } from './contact-container/contact-container.component';
 import { MainPageContainerComponent } from './main-page-container/main-page-container.component';
+import { AllPacientsPageContainerComponent } from './all-pacients-page-container/all-pacients-page-container.component';
+import { PacientsListComponent } from './pacients-list/pacients-list.component';
 
 
 
@@ -19,7 +21,8 @@ import { MainPageContainerComponent } from './main-page-container/main-page-cont
     LogInComponent, 
     LoginContainerComponent, 
     ContactContainerComponent, 
-    MainPageContainerComponent
+    MainPageContainerComponent, 
+    AllPacientsPageContainerComponent, PacientsListComponent
   ],
   imports: [
     CommonModule
@@ -28,7 +31,8 @@ import { MainPageContainerComponent } from './main-page-container/main-page-cont
     DoctorProfileContainerComponent,
     LoginContainerComponent,
     ContactContainerComponent,
-    MainPageContainerComponent
+    MainPageContainerComponent,
+    AllPacientsPageContainerComponent
     
   ]
 })
