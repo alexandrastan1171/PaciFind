@@ -19,6 +19,12 @@ body {
     background-color: white; 
     color: black; 
     border: 2px solid #008CBA;
+    margin: 0;
+    position: absolute;
+    top: 115%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
   
   .button2:hover {
@@ -28,7 +34,7 @@ body {
   .center {
     margin: 0;
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
