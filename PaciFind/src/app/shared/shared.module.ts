@@ -10,6 +10,9 @@ import { ContactContainerComponent } from './contact-container/contact-container
 import { MainPageContainerComponent } from './main-page-container/main-page-container.component';
 import { AllPacientsPageContainerComponent } from './all-pacients-page-container/all-pacients-page-container.component';
 import { PacientsListComponent } from './pacients-list/pacients-list.component';
+import { SearchBarComponent } from './search-bar/search-bar.component';
+import { AllDoctorsPageContainerComponent } from './all-doctors-page-container/all-doctors-page-container.component';
+import { DoctorsListComponent } from './doctors-list/doctors-list.component';
 
 
 
@@ -22,7 +25,9 @@ import { PacientsListComponent } from './pacients-list/pacients-list.component';
     LoginContainerComponent, 
     ContactContainerComponent, 
     MainPageContainerComponent, 
-    AllPacientsPageContainerComponent, PacientsListComponent
+    AllPacientsPageContainerComponent, 
+    PacientsListComponent, 
+    SearchBarComponent, AllDoctorsPageContainerComponent, DoctorsListComponent
   ],
   imports: [
     CommonModule
@@ -32,7 +37,8 @@ import { PacientsListComponent } from './pacients-list/pacients-list.component';
     LoginContainerComponent,
     ContactContainerComponent,
     MainPageContainerComponent,
-    AllPacientsPageContainerComponent
+    AllPacientsPageContainerComponent,
+    AllDoctorsPageContainerComponent
     
   ]
 })
