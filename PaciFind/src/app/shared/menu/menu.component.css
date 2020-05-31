@@ -17,7 +17,7 @@
   }
   #cssmenu ul li {
     margin: 0;
-    background-color: #6fabfa;
+    background-color: #476794;
     transition: 0.3s;
   }
   #cssmenu ul li:first-child a {
@@ -42,13 +42,13 @@
     background-color: #5680b8;
   }
   #cssmenu ul li.active {
-    background-color: #eef5ff;
+    background-color: #628ecc;
   }
   #cssmenu ul li.active a {
-    color: #6fabfa;
+    color: #476794;
   }
   #cssmenu ul li.active a:before {
-    background-color: #eef5ff;
+    background-color: #628ecc;
   }
   #cssmenu ul li a {
     position: relative;
@@ -72,7 +72,7 @@
     top: 0;
     width: 30px;
     height: 100%;
-    background-color: #6fabfa;
+    background-color: #476794;
     border-radius: 0 100px 100px 0;
     box-shadow: 10px 0 10px rgba(0, 0, 0, 0.2);
     transition: 0.3s;

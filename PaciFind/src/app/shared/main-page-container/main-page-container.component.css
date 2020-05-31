@@ -18,7 +18,7 @@ body {
   .button2 {
     background-color: white; 
     color: black; 
-    border: 2px solid #008CBA;
+    border: 2px solid #476794;
     margin: 0;
     position: absolute;
     top: 115%;
@@ -28,7 +28,7 @@ body {
   }
   
   .button2:hover {
-    background-color: #008CBA;
+    background-color: #476794;
     color: white;
   }
   .center {
