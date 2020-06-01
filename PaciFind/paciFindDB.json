@@ -3,17 +3,21 @@
 "id":1,
 "nume":"Popescu",
 "prenume": "Ion",
+"username":"PopIon",
+"password": "iosion",
 "varsta":38,
 "specializare":"Neurochirurg",
-"pacient":"Vlad"
+"pacienti":"Ilie Moromete"
   },
   {
       "id":2,
 "nume":"Ionescu",
 "prenume": "Adrian",
+"username":"AdiIonescu",
+"password":"iosadi",
 "varsta":43,
 "specializare":"Cardiolog",
-"pacient":"Mihai"
+"pacienti":"Ilie Moromete, Vali Vijelie si multi altii"
   }
 ],
 "alergie": [ {
