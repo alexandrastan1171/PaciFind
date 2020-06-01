@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { PacientiService } from 'src/app/core/Services/pacienti.service';
 
 @Component({
@@ -8,13 +8,9 @@ import { PacientiService } from 'src/app/core/Services/pacienti.service';
 })
 export class PacientsListComponent implements OnInit {
 
-  constructor(public pacientService:PacientiService) {
+  @Input() pacient;
+  constructor() {
    }
-   getPacientsClass()
-   {
-     return this.pacientService.getAll();
-   }
-
   ngOnInit(): void {
   }
 
