@@ -6,9 +6,10 @@ import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FooterComponent } from './general-components/footer/footer.component';
+
 import { fakeBackendProvider } from './helpers';
 import { HttpClientModule } from '@angular/common/http';
-import { ReactiveFormsModule } from '@angular/forms';
+import { ReactiveFormsModule ,FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     CoreModule,
     BrowserAnimationsModule,
     HttpClientModule,
+    FormsModule,
     ReactiveFormsModule
   ],
   providers: [

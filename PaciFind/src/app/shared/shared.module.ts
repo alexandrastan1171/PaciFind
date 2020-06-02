@@ -14,6 +14,7 @@ import { SearchBarComponent } from './search-bar/search-bar.component';
 import { AllDoctorsPageContainerComponent } from './all-doctors-page-container/all-doctors-page-container.component';
 import { DoctorsListComponent } from './doctors-list/doctors-list.component';
 
+import { ReactiveFormsModule ,FormsModule} from '@angular/forms';
 
 
 @NgModule({
@@ -30,7 +31,9 @@ import { DoctorsListComponent } from './doctors-list/doctors-list.component';
     SearchBarComponent, AllDoctorsPageContainerComponent, DoctorsListComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   exports: [
     DoctorProfileContainerComponent,
