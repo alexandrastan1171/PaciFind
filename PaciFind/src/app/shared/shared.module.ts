@@ -15,6 +15,7 @@ import { AllDoctorsPageContainerComponent } from './all-doctors-page-container/a
 import { DoctorsListComponent } from './doctors-list/doctors-list.component';
 
 import { ReactiveFormsModule ,FormsModule} from '@angular/forms';
+import { RegisterComponent } from './register/register.component';
 
 
 @NgModule({
@@ -28,7 +29,7 @@ import { ReactiveFormsModule ,FormsModule} from '@angular/forms';
     MainPageContainerComponent, 
     AllPacientsPageContainerComponent, 
     PacientsListComponent, 
-    SearchBarComponent, AllDoctorsPageContainerComponent, DoctorsListComponent
+    SearchBarComponent, AllDoctorsPageContainerComponent, DoctorsListComponent, RegisterComponent
   ],
   imports: [
     CommonModule,

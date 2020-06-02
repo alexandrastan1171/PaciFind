@@ -1,4 +1,5 @@
 <div *ngIf="error" class="alert alert-danger">{{error}}</div>
+<div *ngIf="success" class="alert alert-success">{{success}}</div>
 <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
     <div class="imgcontainer">
         <img src="http://icons.iconarchive.com/icons/scoyo/badge/256/Login-icon.png" alt="avatar" class="avatar">

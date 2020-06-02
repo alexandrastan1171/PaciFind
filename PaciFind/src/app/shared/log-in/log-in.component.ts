@@ -1,9 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-
 import { Router, ActivatedRoute } from '@angular/router';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { first } from 'rxjs/operators';
-
 import { AuthenticationService } from '../../services'
 
 @Component({
@@ -18,6 +16,7 @@ export class LogInComponent implements OnInit {
   submitted = false;
   returnUrl: string;
   error: string;
+  success: string
 
   constructor(
       private formBuilder: FormBuilder,
@@ -39,6 +38,9 @@ export class LogInComponent implements OnInit {
 
       // get return url from route parameters or default to '/'
       this.returnUrl = this.route.snapshot.queryParams['returnUrl'] || '/';
+      if (this.route.snapshot.queryParams['registered']) {
+        this.success = 'Registration successful';
+    }
   }
 
   // convenience getter for easy access to form fields
@@ -46,6 +48,8 @@ export class LogInComponent implements OnInit {
 
   onSubmit() {
       this.submitted = true;
+      this.error = null;
+      this.success = null;
 
       // stop here if form is invalid
       if (this.loginForm.invalid) {
